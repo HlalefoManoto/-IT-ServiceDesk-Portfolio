@@ -1,0 +1,21 @@
+My laptop charger stopped working
+Issue Description:
+My laptop charger died. The light on the brick is off and my laptop won't charge at all. The battery is draining and I'll be stuck soon. Can I get a new charger?
+
+Troubleshooting performed:
+- Tried a different outlet
+- Wiggled the cable
+- No charging light at all
+
+
+How to resolve this
+1 - Over Team Chat, confirm the charger (not the laptop) is the problem: no charging light, laptop runs on battery. Have them try another outlet if they haven't
+2 - Ask the user for their shipping address
+3-Open Tools → Ship Manager, enter their address, select "Laptop Charger", set Rush Priority (Instant) and click Ship
+4-When it arrives, have them plug it in and confirm it's charging
+5-They confirm charging — resolve
+
+Summary
+A dead charger with a healthy laptop is the simplest hardware-replacement ticket: confirm the charger is the fault, ship the correct replacement charger to the user, and confirm it charges. No device replacement needed.
+
+ticket closed 
