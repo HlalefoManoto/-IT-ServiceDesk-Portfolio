@@ -1,0 +1,47 @@
+Ticket: Configure Company Email on New Mobile Device
+Issue Description
+
+User received a new mobile device and required assistance configuring their company email account. Automatic account setup was unsuccessful, and the user did not have the required mail server settings. The device had a working internet connection, and personal email accounts functioned normally.
+
+Symptoms
+New mobile device.
+Internet connection verified.
+Personal email functioning correctly.
+Company email account unable to connect.
+User requires mail server configuration information.
+Troubleshooting Performed
+Confirmed the mobile device had an active internet connection.
+Verified that personal email accounts were functioning normally.
+Opened Tools → Documentation.
+Located the organization's mail server configuration details.
+Opened Team Chat.
+Sent the user the required mail server settings and configuration instructions.
+Guided the user through configuring the work email account.
+Confirmed the mailbox connected successfully and email synchronization began.
+Resolution
+
+Provided the correct company mail server configuration information. The user successfully configured the work email account, and mailbox synchronization completed successfully.
+
+Status: Resolved
+
+Root Cause
+
+The new mobile device did not have the organization's mail server settings configured, preventing the email account from connecting.
+
+Preventive Recommendations
+Maintain up-to-date mobile device setup documentation for users.
+Encourage users to use the organization's recommended email application (such as Outlook, if applicable).
+Where supported, enroll devices in the organization's mobile device management (MDM) platform to automate email configuration.
+Keep server configuration documentation current and easily accessible to the service desk.
+Technical Summary
+
+The user's mobile device had internet connectivity, eliminating network issues. Automatic account configuration was unsuccessful because the required organization-specific mail server settings were unavailable. After providing the correct configuration details from internal documentation, the user completed setup and the mailbox began synchronizing successfully.
+
+Real-World Equivalent
+Simulator Step	Real IT Environment
+Documentation	Internal knowledge base (SharePoint, Confluence, ServiceNow KB)
+Team Chat	Microsoft Teams, Slack, Zoom Chat
+Mail server settings	Microsoft Exchange Online, Google Workspace, IMAP/SMTP, or Exchange ActiveSync settings
+Confirm sync	Verify email, calendar, and contacts begin synchronizing
+
+Yes. This is a common Tier 1 service desk task. In a Microsoft 365 environment, the technician often helps the user sign in to the Microsoft Outlook app with their work account. If automatic discovery fails or the organization uses a different mail system, the technician provides the appropriate server settings or setup instructions from the internal knowledge base. In organizations with mobile device management (MDM), the user may simply enroll the phone, and the email profile is configured automatically.
