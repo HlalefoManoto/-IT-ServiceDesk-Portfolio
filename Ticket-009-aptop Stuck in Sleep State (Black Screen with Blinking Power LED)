@@ -1,0 +1,51 @@
+Ticket: Laptop Stuck in Sleep State (Black Screen with Blinking Power LED)
+Issue Description
+
+User reported that the laptop would not wake from sleep. The display remained black while the power LED slowly pulsed. The user had attempted to press the power button multiple times without success. The laptop was connected to power, and the user required immediate access for an upcoming meeting.
+
+Symptoms
+Black screen.
+Power LED slowly blinking/pulsing.
+Laptop connected to AC power.
+Power button unresponsive.
+User unable to access the operating system.
+Troubleshooting Performed
+Confirmed the laptop was receiving power.
+Identified that the slowly pulsing power LED indicated the system was likely in a sleep or suspended state rather than powered off.
+Instructed the user via Team Chat to disconnect all external devices, including:
+Docking station
+Charger (if instructed by the manufacturer for a power drain)
+External monitors
+USB peripherals
+Guided the user through a hard reset by:
+Pressing and holding the Power button continuously for 30 seconds until all indicator lights and fan activity stopped.
+Releasing the power button.
+Pressing the power button once to start the laptop.
+Confirmed the laptop booted successfully and the display returned to normal operation.
+Resolution
+
+Performed a hard power reset to clear the system from a suspended sleep state. The laptop started normally after the reset.
+
+Status: Resolved
+
+Root Cause
+
+The laptop became unresponsive while entering or resuming from a sleep state. A complete power drain reset restored normal operation.
+
+Preventive Recommendations
+Keep BIOS, chipset, graphics, and power management drivers up to date.
+Disconnect unnecessary peripherals if sleep or wake issues occur repeatedly.
+If the issue becomes frequent, investigate firmware updates or hardware diagnostics.
+Consider reviewing Windows power settings if users regularly experience wake failures.
+Technical Summary
+
+The slowly pulsing power LED indicated that the laptop still had power and was likely stuck in a sleep or suspended state rather than being completely powered off. A full hard reset by holding the power button for 30 seconds forced the system to shut down completely, allowing it to boot normally on the next power-on.
+
+Real-World Equivalent
+Simulator Step	Real IT Environment
+Team Chat	Microsoft Teams, Slack, Zoom Chat
+Disconnect peripherals	Remove docks, USB devices, monitors, chargers (as appropriate)
+Hold Power button for 30 seconds	Hard reset / Power drain
+Confirm successful startup	Verify Windows login screen and user access
+
+One note: the exact meaning of the LED pattern depends on the manufacturer and model. While a slow "breathing" LED commonly indicates sleep, it's good practice in a real support role to verify the device model or consult the manufacturer's service documentation if the behavior doesn't match expectations or the hard reset doesn't resolve the issue.
