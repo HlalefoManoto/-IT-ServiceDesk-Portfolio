@@ -1,0 +1,46 @@
+Printer Displays Offline Due to Incorrect IP Address
+Issue Description
+
+User reported that the cafeteria printer appeared Offline on their computer. The printer was powered on, loaded with paper, and had been functioning normally until approximately two weeks prior. The user was unable to print daily cafeteria menus.
+Symptoms
+Printer is powered on.
+Paper is loaded.
+Windows reports the printer as Offline.
+Printing jobs do not reach the printer.
+Printer was previously functioning correctly.
+Troubleshooting Performed
+Verified that the printer was powered on and ready.
+Confirmed the printer contained paper and showed no physical error indicators.
+Opened Tools → Documentation and located the Print Server documentation.
+Recorded the correct IP address assigned to the printer.
+Connected to the user's computer using Tools → Remote Support.
+Opened Settings → Devices.
+Located the offline printer and removed it.
+Selected Add a printer or scanner.
+Chose Add a printer using a TCP/IP address or hostname.
+Entered the correct printer IP address from the documentation.
+Installed the printer.
+Printed a test page.
+Confirmed with the user that printing was successful.
+
+Resolution
+Removed the incorrectly configured printer and re-added it using the correct TCP/IP address from the print server documentation. Successfully printed a test page and confirmed normal printer operation.
+
+Status: Resolved
+
+Root Cause
+The printer was configured with an incorrect or outdated IP address, causing Windows to report it as offline.
+
+Preventive Recommendations
+Assign printers static IP addresses or DHCP reservations to prevent address changes.
+Maintain accurate print server documentation.
+Verify printer IP addresses before reinstalling printer drivers.
+Update workstation printer configurations if printer network settings change.
+Technical Summary
+
+The printer hardware was operational; however, the workstation was configured to communicate with an incorrect printer IP address. Removing and reinstalling the printer using the documented TCP/IP address restored communication and resolved the issue.
+Documentation → Print Server	Internal documentation (Confluence, SharePoint, ServiceNow KB)
+Remote Support	Microsoft Quick Assist, BeyondTrust, TeamViewer, AnyDesk
+Remove printer	Windows Settings or Control Panel
+Add by TCP/IP	Settings → Bluetooth & devices → Printers & scanners → Add device → The printer that I want isn't listed → Add a printer using a TCP/IP address or hostname
+Print Test Page	Printer Properties → Print Test Page
