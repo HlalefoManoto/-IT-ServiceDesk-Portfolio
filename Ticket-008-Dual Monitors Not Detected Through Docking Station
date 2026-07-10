@@ -1,0 +1,50 @@
+Ticket: Dual Monitors Not Detected Through Docking Station
+
+Issue Description
+
+User reported that two external monitors connected through a docking station were no longer detected. The laptop display continued to function normally. The user indicated that the DisplayPort cable connected to the primary monitor had been intermittent for several weeks and was likely defective.
+
+Symptoms
+Laptop display functions normally.
+Both external monitors are not detected.
+Docking station is connected.
+User suspects a faulty DisplayPort cable.
+Troubleshooting Performed
+Confirmed that the laptop display was functioning normally.
+Verified that the issue affected only the external monitors, indicating the graphics adapter was operating correctly.
+Asked the user to reseat the docking station and display cables.
+Confirmed the user had already reseated the cables and tested an alternate docking station port without success.
+Confirmed with the user that the DisplayPort cable was the suspected point of failure.
+Collected the user's shipping address.
+Opened Tools → Ship Manager.
+Selected a replacement DisplayPort cable.
+Set shipping priority to Rush (Instant) and submitted the order.
+After delivery, instructed the user to connect the replacement cable.
+Guided the user to press Windows + P and select Extend.
+Verified that both external monitors were detected and functioning correctly.
+Resolution
+
+Replaced the faulty DisplayPort cable. After installing the replacement cable and configuring the display mode to Extend, both external monitors were successfully detected.
+
+Status: Resolved
+
+Root Cause
+
+Faulty DisplayPort cable between the docking station and the primary external monitor.
+
+Preventive Recommendations
+Replace display cables showing intermittent connectivity before complete failure.
+Keep spare DisplayPort or HDMI cables available for quick replacement.
+Inspect docking station cables periodically for wear or physical damage.
+Label cables to simplify future troubleshooting and replacements.
+Technical Summary
+
+The laptop display functioned normally, indicating the graphics subsystem was operational. The user had already reseated the dock and tested an alternate dock port, ruling out loose connections. Based on the user's report of intermittent DisplayPort failures, the defective cable was replaced. Once connected, the display mode was set to Extend using Windows + P, restoring both external monitors.
+
+Where You Would Perform This in a Real Environment
+Task	Real-World Tool or Method
+Remote assistance	Microsoft Quick Assist, BeyondTrust, TeamViewer, AnyDesk
+User communication	Microsoft Teams, Slack, Zoom Chat
+Shipping replacement hardware	ServiceNow Hardware Asset Management, Jira Service Management, Dell TechDirect, Lenovo Premier Support, HP Support
+Configure display mode	Windows + P → Extend
+Verify monitor detection	Settings → System → Display or Device Manager
