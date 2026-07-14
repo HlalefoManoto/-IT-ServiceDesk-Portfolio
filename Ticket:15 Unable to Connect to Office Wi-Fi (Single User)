@@ -1,0 +1,50 @@
+Issue Description
+
+A user reported that their laptop was unable to connect to the corporate Wi-Fi network while working from the office. The issue affected only the user's device, as other employees remained connected without interruption. The connection had been functioning normally the previous day.
+
+Symptoms
+Unable to connect to the SDSim-Secure wireless network.
+Other users connected to the same Wi-Fi network without issues.
+Restarting the laptop did not restore connectivity.
+Wi-Fi was functioning normally the previous day.
+User unable to access network resources or the internet.
+Troubleshooting Performed
+Connected to the user's workstation using the Remote Support tool.
+Opened Network & Internet Settings.
+Disconnected from the SDSim-Secure wireless network.
+Selected Forget to remove the saved Wi-Fi profile.
+Opened Documentation and located the current SDSim-Secure wireless network credentials.
+Reconnected to the SDSim-Secure network.
+Entered the documented Wi-Fi security key.
+Confirmed the laptop successfully connected to the wireless network.
+Verified internet connectivity.
+Resolution
+
+Removed the corrupted wireless network profile and reconnected the device to the corporate Wi-Fi using the correct network credentials. Confirmed the laptop connected successfully and network access was restored.
+
+Status: Resolved
+
+Root Cause
+
+The wireless profile stored on the user's device had become corrupted, preventing successful authentication with the corporate wireless network. Removing the cached profile and creating a new connection resolved the issue.
+
+Preventive Recommendations
+Remove and recreate saved Wi-Fi profiles if authentication issues occur on a single device.
+Maintain current wireless network credentials within the organization's knowledge base.
+Encourage users to report recurring wireless connection issues for further investigation.
+Review wireless authentication logs if multiple users begin experiencing similar issues.
+Technical Summary
+
+Because other users remained connected to the same wireless network, the issue was isolated to the user's laptop rather than the wireless infrastructure. The existing Wi-Fi profile was removed to eliminate corrupted configuration data. After reconnecting using the approved wireless security key from internal documentation, the device authenticated successfully and normal network connectivity was restored.
+
+Real-World Equivalent
+Simulator Step	Real IT Environment
+Remote Support	Microsoft Quick Assist, BeyondTrust, TeamViewer, ConnectWise Control
+Forget Wi-Fi Network	Windows 10/11 Network & Internet Settings
+Documentation	SharePoint Knowledge Base, Confluence, ServiceNow Knowledge Base
+Wi-Fi Credentials	Enterprise Wireless Documentation (WPA2/WPA3 or 802.1X)
+Reconnect to Wi-Fi	Windows Wireless Network Manager
+Verify Connectivity	Confirm IP address assignment, internet access, and access to corporate resources
+Industry Context
+
+This is a common Tier 1 Service Desk incident. When a wireless issue affects only one user while other devices remain connected, the problem is typically isolated to the endpoint rather than the wireless infrastructure. Corrupted wireless profiles, outdated credentials, or failed authentication attempts are common causes. Standard troubleshooting involves removing the saved wireless profile, reconnecting using the approved credentials, and verifying successful authentication before resolving the incident.
