@@ -1,0 +1,50 @@
+
+Ticket: Display Flickering and Graphical Artifacts After Operating System Update
+Issue Description
+
+A user reported severe screen flickering accompanied by coloured blocks and graphical lines appearing across the display immediately after a workstation operating system update. The issue affected both the built-in display and an external monitor, indicating that the problem was unlikely to be caused by the monitor itself.
+
+Symptoms
+Screen flickering continuously.
+Coloured blocks and graphical artifacts displayed on screen.
+Horizontal and vertical lines visible.
+Issue began immediately after the workstation OS update.
+Same behaviour observed on an external monitor.
+Restarting the computer did not resolve the issue.
+Troubleshooting Performed
+Connected to the user's workstation using the Remote Support tool.
+Reviewed the user's recent update history.
+Opened the System Update application.
+Checked for available updates.
+Identified a pending graphics driver update.
+Installed all available updates, including the graphics driver.
+Restarted the workstation when prompted.
+Verified that the display returned to normal after the restart.
+Resolution
+
+Installed the latest graphics driver update provided through the system update utility and restarted the workstation. After the reboot, the display operated normally with no flickering or graphical artifacts.
+
+Status: Resolved
+
+Root Cause
+
+The operating system update introduced a compatibility issue that required an updated graphics driver. The outdated display driver was unable to function correctly with the newly installed operating system components, resulting in graphical corruption and screen flickering.
+
+Preventive Recommendations
+Install all available driver updates after major operating system upgrades.
+Keep graphics drivers up to date using the organization's approved update process.
+Test critical workstation models before deploying large-scale operating system updates.
+Encourage users to report display abnormalities immediately following system updates.
+Technical Summary
+
+The symptoms were consistent across both the internal display and an external monitor, eliminating the monitors as the source of the problem. Because the issue began immediately after an operating system update, the investigation focused on driver compatibility. A pending graphics driver update was identified through the System Update application. Installing the updated driver restored compatibility with the operating system, resolving the display corruption after a system restart.
+
+Real-World Equivalent
+Simulator Step	Real IT Environment
+Remote Support	Microsoft Quick Assist, BeyondTrust, TeamViewer, ConnectWise Control
+System Update	Windows Update, Microsoft Intune, Microsoft Endpoint Configuration Manager (ConfigMgr), Lenovo Vantage, Dell Command Update
+Graphics Driver Update	Intel Graphics Driver, NVIDIA GeForce Driver, AMD Radeon Software
+Restart Workstation	Verify driver installation completes successfully after reboot
+Industry Context
+
+This is a common Tier 1 Service Desk incident following operating system or feature updates. Display flickering and graphical artifacts often indicate a graphics driver compatibility issue rather than a hardware failure, particularly when the problem affects multiple displays simultaneously. Service desk technicians should verify pending driver updates before escalating to desktop support or replacing hardware. Confirming the display functions correctly after the driver installation and restart is essential before resolving the incident.
