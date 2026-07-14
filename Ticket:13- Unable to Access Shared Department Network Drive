@@ -1,0 +1,50 @@
+Issue Description
+
+A user reported that their department's shared network drive was missing from File Explorer. Team members confirmed they could access the shared folder without issue, indicating the file share was available. The user required access to the department files to perform daily work tasks.
+
+Symptoms
+Department shared drive missing from This PC.
+User unable to access department files.
+Team members can access the shared folder successfully.
+No drive letter displayed on the user's computer.
+Shared drive unavailable for work-related tasks.
+Troubleshooting Performed
+Connected to the user's workstation using the Remote Support tool.
+Checked the VPN Client and confirmed it was Disconnected.
+Connected the user to the corporate VPN.
+Verified whether the network drive reconnected automatically.
+Confirmed the required department shared drive with the user via Team Chat.
+Opened Documentation and located the department file server UNC path.
+Opened File Explorer → This PC → Map Network Drive.
+Configured the correct drive letter and entered the documented UNC path.
+Verified the mapped network drive appeared in This PC and was accessible.
+Resolution
+
+Established a VPN connection and mapped the department's shared network drive using the correct UNC path from internal documentation. Confirmed the drive appeared in This PC and that the user could successfully access the shared files.
+
+Status: Resolved
+
+Root Cause
+
+The user's workstation was not connected to the corporate VPN, preventing access to internal file servers. Because the network drive did not reconnect automatically, it required manual mapping using the documented UNC path.
+
+Preventive Recommendations
+Ensure remote users connect to the corporate VPN before accessing network resources.
+Configure mapped network drives to reconnect automatically at sign-in where supported.
+Maintain accurate file server documentation, including drive letters and UNC paths.
+Provide users with guidance on reconnecting network drives after VPN disconnections.
+Technical Summary
+
+The department file share was functioning normally, as confirmed by other team members. The issue was isolated to the user's workstation. The VPN connection was inactive, preventing communication with the internal file server. After reconnecting to the corporate VPN and mapping the network drive using the documented UNC path, the shared folder became available and access was successfully restored.
+
+Real-World Equivalent
+Simulator Step	Real IT Environment
+Remote Support	Microsoft Quick Assist, BeyondTrust, TeamViewer, ConnectWise Control
+VPN Client	Cisco AnyConnect, GlobalProtect, FortiClient, Microsoft Always On VPN
+Documentation	SharePoint Knowledge Base, Confluence, ServiceNow Knowledge Base
+Team Chat	Microsoft Teams, Slack
+Map Network Drive	Windows File Explorer using SMB file shares (\\FileServer\Department)
+UNC Path	Windows File Server, Azure Files, DFS Namespace
+Industry Context
+
+This is a common Tier 1 Service Desk incident. Users working remotely frequently lose access to mapped network drives when the VPN is disconnected or when a drive fails to reconnect after sign-in. The standard troubleshooting process is to verify VPN connectivity, confirm the correct shared folder with the user, obtain the approved UNC path from the organization's knowledge base, and remap the network drive if necessary. Before closing the ticket, technicians should always verify that the drive is visible in This PC and that the user can open the shared folder successfully.
