@@ -1,0 +1,48 @@
+Issue Description
+
+A user reported that their network printer appeared Offline and was unable to print documents. The issue began following scheduled weekend maintenance. Restarting the workstation did not restore printer connectivity.
+
+Symptoms
+Printer displayed Offline in Windows.
+Print jobs remained in the print queue.
+Unable to print documents.
+Workstation restarted with no improvement.
+Issue began after scheduled weekend maintenance.
+Troubleshooting Performed
+Connected to the user's workstation using the Remote Support tool.
+Verified the printer status in Devices and Printers.
+Confirmed the printer was showing as Offline.
+Removed the existing printer configuration from the workstation.
+Re-added the printer using its IP address.
+Installed the appropriate printer configuration.
+Printed a test page.
+Confirmed the printer status changed to Online and printing functionality was restored.
+Resolution
+
+Removed the offline printer configuration and reinstalled the printer using its network IP address. Verified successful communication with the printer by printing a test page.
+
+Status: Resolved
+
+Root Cause
+
+Following scheduled maintenance, the existing printer connection was no longer communicating correctly with the network printer. Recreating the printer connection using the printer's IP address established a new, functional network connection.
+
+Preventive Recommendations
+Use TCP/IP printer ports for network printers where appropriate to improve connection reliability.
+Verify printer connectivity after scheduled maintenance or infrastructure changes.
+Keep printer drivers updated using approved vendor releases.
+Maintain an inventory of printer IP addresses and configurations for quicker incident resolution.
+Technical Summary
+
+The workstation retained an offline printer configuration after the weekend maintenance. The existing printer connection was removed and recreated using the printer's IP address, establishing a new TCP/IP printer port. After reinstalling the printer, communication with the print device was successfully restored, and a test print confirmed normal operation.
+
+Real-World Equivalent
+Simulator Step	Real IT Environment
+Remote Support	Microsoft Quick Assist, BeyondTrust, TeamViewer, ConnectWise Control
+Remove Printer	Windows Settings → Printers & Scanners / Print Management
+Add Printer by IP Address	Standard TCP/IP Port using IPv4 address
+Install Printer	Manufacturer driver or Universal Print Driver (HP, Canon, Brother, Xerox, Ricoh, etc.)
+Test Print	Windows Test Page or printer diagnostics
+Industry Context
+
+This is a common Tier 1 Service Desk incident. After maintenance, network printers may appear offline due to changes in network configuration, print server updates, or corrupted printer mappings. A standard troubleshooting approach is to verify printer connectivity, remove any stale printer configuration, and re-add the printer using its IP address or the organization's print server. Before resolving the incident, technicians should always confirm that the printer reports Online and successfully prints a test page.
