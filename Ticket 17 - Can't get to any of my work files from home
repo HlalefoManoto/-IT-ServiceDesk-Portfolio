@@ -1,0 +1,41 @@
+What’s happening?
+
+The user is working from home, so the mapped drives can’t reach the file server because the VPN is disconnected. The key clue is:
+
+“The network path was not found”
+
+Improved Resolution Steps
+
+Connect to the user’s PC using Remote Support.
+
+Open the VPN Client and verify it shows Disconnected.
+
+Click Connect and wait until the VPN status changes to Connected.
+
+Ask the user to open File Explorer and test one of the mapped drives.
+
+If the drive still shows disconnected:
+
+Open File Explorer → This PC.
+
+Click ⋯ (See more) → Map network drive.
+
+Enter the department’s UNC path (for example \\fileserver\department).
+
+Check Reconnect at sign-in.
+
+Click Finish.
+
+Confirm the drive opens successfully.
+
+Root Cause
+
+The user was outside the corporate network and the VPN connection was not active, so the workstation could not reach the file server hosting the mapped drives.
+
+Prevention
+
+Instruct remote users to connect the VPN before accessing mapped drives. If available, enable auto-connect VPN for remote workers.
+
+Lessons Learned
+
+When a user reports “network path was not found” while working from home, check the VPN first before remapping drives.
