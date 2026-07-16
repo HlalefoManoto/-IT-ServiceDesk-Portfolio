@@ -1,0 +1,39 @@
+Unable to Access Internal HR Portal While Working Remotely
+Issue
+
+A remote employee was unable to access the company's internal HR portal (hr.corp.local) to approve leave requests. The browser displayed "This site can't be reached", while all public websites loaded successfully.
+
+Business Impact
+
+The employee could not access internal HR systems, preventing them from approving employee PTO requests.
+
+Troubleshooting Performed
+Confirmed the user was working remotely.
+Verified the URL was hr.corp.local.
+Confirmed internet connectivity by browsing public websites.
+Tested using another web browser.
+Reproduced the issue.
+Resolution
+Connected to the user's computer using Remote Support.
+Verified that the HR portal could not be reached.
+Opened the VPN client.
+Found the VPN was disconnected.
+Connected to the corporate VPN.
+Refreshed the HR portal.
+Confirmed the portal loaded successfully and the user regained access.
+Root Cause
+
+The HR portal is hosted on the organization's internal network and is only accessible while connected to the corporate VPN. The user attempted to access it while disconnected.
+
+Prevention
+Remind remote users to connect to the VPN before accessing internal resources.
+Consider configuring the VPN to connect automatically when users sign in remotely.
+Skills Demonstrated
+VPN troubleshooting
+Internal DNS resolution
+Remote support
+Network connectivity troubleshooting
+User verification and issue validation
+Lessons Learned
+
+A .corp.local address is an internal domain. If a remote user cannot reach a *.corp.local website but public websites work normally, the VPN connection should be one of the first things checked.
