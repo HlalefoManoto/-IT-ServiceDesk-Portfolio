@@ -1,0 +1,38 @@
+Issue
+
+A remote employee reported that their Remote Desktop session, VPN connection, video calls, and web browsing were disconnecting every few minutes while working from home.
+
+Business Impact
+
+The user was unable to maintain a stable connection to the corporate network and could not access the financial reporting system ahead of a scheduled budget review.
+
+Troubleshooting Performed
+User restarted their computer.
+Confirmed the issue also affected other devices connected to the home Wi-Fi.
+Determined the problem was not limited to the work computer.
+Resolution
+Contacted the user through Team Chat.
+Confirmed the issue was affecting the user's home network.
+Instructed the user to power off their modem/router for approximately 30 seconds.
+Asked the user to reconnect the modem/router and wait for the internet connection to stabilize.
+Had the user restart their computer.
+Confirmed the VPN, Remote Desktop session, and internet connection remained stable.
+Advised the user to contact their Internet Service Provider (ISP) if the issue continued.
+Root Cause
+
+The user's home router had an unstable internet connection, causing repeated interruptions to the VPN and Remote Desktop sessions.
+
+Prevention
+Periodically restart home networking equipment if connectivity becomes unstable.
+Use a wired Ethernet connection when possible for improved stability.
+Contact the ISP if multiple devices experience the same connectivity issues.
+Skills Demonstrated
+Remote support
+VPN troubleshooting
+Remote Desktop support
+Home network troubleshooting
+End-user communication
+Problem isolation
+Lessons Learned
+
+When multiple devices on the same home network experience connection problems, the issue is most likely with the home network or ISP, rather than the user's work computer or the corporate environment.
