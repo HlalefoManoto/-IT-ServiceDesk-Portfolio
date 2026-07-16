@@ -1,0 +1,11 @@
+Resolution Summary:
+
+Verified the user's account in the Directory and confirmed they were not a member of the Support-Mailbox security group. Added Lisa Chang (lchang@servicedesk-simulator.com) to the Support-Mailbox group and confirmed the membership was successfully applied. This grants access to the shared support@ mailbox in Mail.
+
+Root Cause:
+
+The user was not assigned to the Support-Mailbox security group, which controls access to the shared support mailbox.
+
+Status:
+
+✅ Resolved – User added to the Support-Mailbox security group. Access to the support@ shared mailbox has been granted. The user may need to restart Mail or allow a few minutes for the mailbox to appear if it does not display immediately.
