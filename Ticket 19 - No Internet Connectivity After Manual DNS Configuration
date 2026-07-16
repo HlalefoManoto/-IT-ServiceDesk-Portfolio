@@ -1,0 +1,39 @@
+No Internet Connectivity After Manual DNS Configuration
+Issue
+
+A user reported having no internet connectivity after manually changing their network settings. Public websites such as Google, the company intranet, and the finance portal were all unreachable.
+
+Business Impact
+
+The user was unable to access any online resources, preventing them from performing their daily work.
+
+Troubleshooting Performed
+User restarted the computer.
+Confirmed other users on the same network had internet access.
+User mentioned they had manually configured the DNS server to 8.8.8.8 after following online advice to improve internet speed.
+Resolution
+Connected to the user's computer using Remote Support.
+Opened Control Panel.
+Navigated to Network and Sharing Center.
+Opened the active network adapter properties.
+Opened Internet Protocol Version 4 (TCP/IPv4) settings.
+Changed the DNS configuration from a manually specified DNS server back to Obtain DNS server address automatically.
+Applied the changes.
+Confirmed internet connectivity was restored.
+Root Cause
+
+The user had manually configured the DNS settings, which prevented the workstation from correctly resolving domain names on the corporate network.
+
+Prevention
+Advise users not to modify network settings without IT guidance.
+Use the organization's recommended DNS configuration.
+Document approved network settings for end users.
+Skills Demonstrated
+DNS troubleshooting
+Windows network configuration
+Remote support
+TCP/IP configuration
+End-user support
+Lessons Learned
+
+When a user can no longer access any websites after changing network settings, check the DNS configuration. Incorrect DNS settings can prevent name resolution even when the network connection itself is working.
