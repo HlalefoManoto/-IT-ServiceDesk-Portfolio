@@ -1,0 +1,9 @@
+Connected to the user's workstation via Remote Support and verified that the deleted folder was no longer present in File Explorer and the Recycle Bin had been emptied. Accessed the Cloud Drive, initiated a sync, then navigated to Version History → Recently Deleted Files. Located the deleted folder, restored it, and confirmed that all client proposals and contract files were successfully recovered and accessible.
+
+Root Cause:
+
+The user accidentally deleted the folder and emptied the Recycle Bin. The files remained recoverable through the Cloud Drive's Recently Deleted Files recovery feature.
+
+Status:
+
+✅ Resolved – Deleted folder successfully restored from Cloud Drive version history. All files were recovered and verified to be intact.
