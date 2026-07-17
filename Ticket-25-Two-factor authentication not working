@@ -1,0 +1,17 @@
+## Ticket: Two-Factor Authentication (MFA) Not Working
+
+**Issue:**
+User was unable to authenticate using multi-factor authentication (MFA). The authentication app generated codes, but each code was rejected during sign-in.
+
+**Root Cause:**
+The user's MFA registration was out of sync and required a reset before a new authenticator could be enrolled.
+
+**Resolution:**
+- Located the user's account in the Directory.
+- Contacted the user's manager via Team Chat to obtain approval for an MFA reset.
+- After receiving confirmation, performed an **MFA reset** in the Directory.
+- Informed the manager that the user could sign in and re-enroll their authenticator application.
+- Confirmed with the user that they successfully completed the MFA setup and were able to log in.
+
+**Status:**
+✅ Resolved – MFA reset completed, authenticator re-enrolled, and user successfully regained access.
