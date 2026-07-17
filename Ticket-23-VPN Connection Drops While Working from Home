@@ -1,0 +1,17 @@
+## Ticket: VPN Connection Frequently Disconnecting While Working From Home
+
+**Issue:**
+User reported that their VPN connection was disconnecting every 15–20 minutes while working remotely. Internet access appeared to remain available, but the VPN required frequent reconnection.
+
+**Root Cause:**
+The issue was determined to be related to the user's home network connection, causing instability with the VPN session.
+
+**Resolution:**
+- Contacted the user via Team Chat.
+- Advised the user to power cycle their modem/router by unplugging it for 30 seconds and reconnecting it.
+- Instructed the user to restart their computer.
+- Assisted the user with reconnecting to the VPN.
+- Monitored and confirmed that the VPN connection remained stable after reconnecting.
+
+**Status:**
+✅ Resolved – VPN connection remained active after restarting the home network equipment and workstation.
