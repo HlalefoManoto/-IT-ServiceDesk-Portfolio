@@ -1,0 +1,17 @@
+## Ticket: Display Performance Degraded After Driver Issue
+
+**Issue:**
+User reported severe display performance issues, including choppy scrolling, lag when moving windows, and poor video playback. The issue began after the weekend and persisted after restarting the computer.
+
+**Root Cause:**
+An outdated graphics driver was causing degraded display performance.
+
+**Resolution:**
+- Connected to the user's workstation via Remote Support.
+- Opened the **System Update** application and checked for available updates.
+- Identified and installed the latest graphics driver along with all pending system updates.
+- Restarted the workstation to complete the installation.
+- Verified that display performance returned to normal and confirmed the issue was resolved.
+
+**Status:**
+✅ Resolved – Graphics driver updated, system restarted, and display performance restored.
