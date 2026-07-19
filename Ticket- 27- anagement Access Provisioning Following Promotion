@@ -1,0 +1,16 @@
+## Ticket: Management Access Provisioning Following Promotion
+
+**Issue:**
+User was promoted to Department Head and required management-level access to perform their new responsibilities, including access to budget reports, purchase request approvals, and team management. The user only had standard department permissions.
+
+**Root Cause:**
+The user's account had not yet been added to the **Management** security group following the approved promotion.
+
+**Resolution:**
+- Verified the user's account in the Directory.
+- Confirmed that HR and the Department VP had approved the management access request.
+- Added the user to the **Management** security group.
+- Verified that the group membership was successfully applied, granting the appropriate management permissions.
+
+**Status:**
+✅ Resolved – User added to the **Management** security group and management access successfully provisioned.
