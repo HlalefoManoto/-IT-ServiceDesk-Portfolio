@@ -1,0 +1,18 @@
+## Ticket: Network Printer Offline After Weekend Maintenance
+
+**Issue:**
+User reported that their network printer displayed an **Offline** status and was unable to print. The issue began following the weekend maintenance and persisted after restarting the computer.
+
+**Root Cause:**
+The printer configuration was no longer using the correct network IP address following maintenance, preventing communication with the print server.
+
+**Resolution:**
+- Referenced the **Print Server** documentation to obtain the correct printer IP address.
+- Connected to the user's workstation via Remote Support.
+- Removed the offline printer from **Settings → Devices**.
+- Re-added the printer using the **TCP/IP address or hostname** option and entered the documented IP address.
+- Printed a test page and confirmed successful communication with the printer.
+- Verified with the user that printing functionality had been restored.
+
+**Status:**
+✅ Resolved – Printer reconfigured with the correct IP address and printing successfully restored.
