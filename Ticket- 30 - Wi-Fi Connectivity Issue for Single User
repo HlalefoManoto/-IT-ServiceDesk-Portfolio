@@ -1,0 +1,18 @@
+## Ticket: Wi-Fi Connectivity Issue for Single User
+
+**Issue:**
+User reported that their laptop was unable to connect to the office Wi-Fi. Other users on the network were unaffected. The issue began unexpectedly, and restarting the laptop did not resolve it.
+
+**Root Cause:**
+The laptop had a saved Wi-Fi profile with outdated or incorrect authentication credentials, preventing successful connection to the wireless network.
+
+**Resolution:**
+- Connected to the user's workstation via Remote Support.
+- Opened the Wi-Fi settings and selected the affected wireless network.
+- Chose **Forget** to remove the saved network profile.
+- Reconnected to the wireless network.
+- Entered the correct **Network Security Key**.
+- Confirmed the laptop successfully connected to the Wi-Fi network and verified internet connectivity.
+
+**Status:**
+✅ Resolved – Wi-Fi profile refreshed with the correct security key, and wireless connectivity was successfully restored.
