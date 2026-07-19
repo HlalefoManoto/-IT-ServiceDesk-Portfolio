@@ -1,0 +1,16 @@
+## Ticket: Laptop Will Not Wake from Sleep
+
+**Issue:**
+User reported that their laptop would not wake from sleep. The screen remained black while the power indicator light was blinking.
+
+**Root Cause:**
+The system became unresponsive while in sleep/hibernation mode.
+
+**Resolution:**
+- Verified the symptoms indicated the laptop was stuck in sleep/hibernation.
+- Performed a forced shutdown by holding the power button for approximately 10 seconds until the device powered off.
+- Powered the laptop back on and confirmed it booted normally.
+- Verified the display was restored and the user was able to access the system.
+
+**Status:**
+✅ Resolved – Laptop restarted successfully and returned to normal operation.
