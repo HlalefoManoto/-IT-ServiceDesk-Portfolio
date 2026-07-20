@@ -1,0 +1,17 @@
+## Ticket: Work Email Not Syncing on Mobile Device
+
+**Issue:**
+User reported that their work email was no longer syncing on their mobile device and received a **"Cannot connect to server"** error. Internet connectivity and other mobile applications were functioning normally, and email remained accessible on the user's laptop.
+
+**Root Cause:**
+The email account was functioning correctly, but the mobile email application had entered an unstable state and required reinstallation.
+
+**Resolution:**
+- Confirmed via Team Chat that the user could successfully access their work email on their laptop.
+- Determined the issue was isolated to the mobile email application.
+- Advised the user to uninstall the email application from their mobile device.
+- Instructed the user to reinstall the application from the device's app store and sign in using their work account.
+- Confirmed that email synchronized successfully after the application was reinstalled.
+
+**Status:**
+✅ Resolved – Mobile email application reinstalled successfully, and email synchronization was restored.
