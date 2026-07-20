@@ -1,0 +1,19 @@
+## Ticket: Cafeteria Printer Offline
+
+**Issue:**
+User reported that the cafeteria printer was powered on and loaded with paper but appeared **Offline** on their workstation, preventing printing of daily menus.
+
+**Root Cause:**
+The workstation was configured with an incorrect or outdated printer IP address, preventing communication with the network printer.
+
+**Resolution:**
+- Reviewed the **Print Server** documentation to obtain the correct printer IP address.
+- Connected to the user's workstation via Remote Support.
+- Opened **Settings → Devices** and removed the offline printer.
+- Re-added the printer using the **Add a printer using a TCP/IP address or hostname** option.
+- Configured the printer with the correct IP address from the Print Server documentation.
+- Printed a test page to verify communication.
+- Confirmed with the user that the printer was online and printing successfully.
+
+**Status:**
+✅ Resolved – Printer reconfigured with the correct network IP address, and printing functionality was restored.
