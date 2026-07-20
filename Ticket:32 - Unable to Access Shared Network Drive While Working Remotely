@@ -1,0 +1,17 @@
+## Ticket: Unable to Access Shared Network Drive While Working Remotely
+
+**Issue:**
+User reported that shared network drives were inaccessible while working from home. Attempts to open the drives resulted in a **"Network path not found"** error. Internet and email connectivity were functioning normally, and the drives had worked previously while in the office.
+
+**Root Cause:**
+The workstation was not connected to the corporate VPN, preventing access to internal file servers. The required network drive also needed to be mapped using the correct UNC path.
+
+**Resolution:**
+- Connected to the user's workstation via Remote Support.
+- Verified that the **VPN Client** was disconnected and established a connection to the corporate network.
+- Referenced the **File Server** documentation to obtain the correct departmental UNC path.
+- Opened **File Explorer** and mapped the network drive using the appropriate drive letter and UNC path.
+- Verified that the shared drive opened successfully and confirmed the user could access their files.
+
+**Status:**
+✅ Resolved – VPN connection established, network drive mapped successfully, and access to the shared drive restored.
