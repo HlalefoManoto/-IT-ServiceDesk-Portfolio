@@ -1,0 +1,15 @@
+## Ticket: Dual Monitors Not Detected via Docking Station
+
+**Issue:**
+User reported that both external monitors connected through the docking station were no longer being detected. The laptop display functioned normally, and reseating the dock and cables did not resolve the issue. The primary monitor's DisplayPort cable had been intermittently failing for several weeks.
+
+**Root Cause:**
+Faulty DisplayPort cable preventing the docking station from establishing a connection with the external monitors.
+
+**Resolution:**
+- Reviewed the reported symptoms and determined the DisplayPort cable was the likely point of failure.
+- Arranged for a replacement **DisplayPort cable** to be shipped to the user.
+- Advised the user to replace the existing cable upon delivery and verify that both external monitors were detected successfully.
+
+**Status:**
+✅ Resolved – Replacement DisplayPort cable dispatched to the user. Faulty cable identified as the cause of the display issue.
