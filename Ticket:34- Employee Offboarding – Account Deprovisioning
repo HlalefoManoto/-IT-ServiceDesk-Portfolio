@@ -1,0 +1,20 @@
+## Ticket: Employee Offboarding – Account Deprovisioning
+
+**Issue:**
+HR submitted an approved offboarding request for **Sarah Mitchell (smitchell)** following the employee's departure. The request required deprovisioning the user account, revoking access, and processing the return of assigned company assets in accordance with the organization's offboarding procedure.
+
+**Root Cause:**
+Employee separation requiring immediate removal of system access and recovery of company-issued equipment.
+
+**Resolution:**
+- Verified the offboarding request was approved by the HR Director.
+- Located **Sarah Mitchell (smitchell)** in the Directory.
+- Disabled the user account.
+- Reset the account password.
+- Removed all assigned licenses, including the Office Suite.
+- Removed the user from all security and distribution groups, retaining only the **Domain Users** group as required.
+- Opened **Asset Management**, located the assigned device, generated a return label, and processed the asset return.
+- Confirmed the account was fully deprovisioned and the returned device was placed back into inventory.
+
+**Status:**
+✅ Resolved – User account successfully deprovisioned, licenses and group memberships removed, and company device returned to stock.
