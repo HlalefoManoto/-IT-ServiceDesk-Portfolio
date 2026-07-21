@@ -1,0 +1,17 @@
+## Ticket: Domain Authentication Service Outage
+
+**Issue:**
+Multiple users across the office were unable to sign in to their workstations and received a **"No logon servers available"** error. Users who were already logged in also experienced issues accessing network resources, indicating a widespread authentication failure.
+
+**Root Cause:**
+The **Domain Controller** became unresponsive, preventing authentication requests and access to domain-based network resources.
+
+**Resolution:**
+- Confirmed the issue affected multiple users across the organization.
+- Accessed the **Server Room** and located the **Domain Controller**.
+- Performed a controlled reboot of the Domain Controller.
+- Verified that Active Directory services resumed successfully after the restart.
+- Confirmed users were able to authenticate and regain access to network resources.
+
+**Status:**
+✅ Resolved – Domain Controller rebooted successfully, authentication services restored, and users were able to log in and access corporate resources.
