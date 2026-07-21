@@ -1,0 +1,17 @@
+## Ticket: Unable to Access Work Email on Mobile Device
+
+**Issue:**
+User reported that work email was no longer syncing on their mobile device and received a **"Cannot connect to server"** error. The issue started unexpectedly after previously working without issue.
+
+**Root Cause:**
+The issue was isolated to the user's mobile device. The email account was functioning correctly, but the mobile email application had entered an unstable state and required reinstallation.
+
+**Resolution:**
+- Contacted the user via Team Chat and confirmed that work email was accessible on their laptop.
+- Determined the issue was limited to the mobile device and not the user's email account.
+- Instructed the user to uninstall the email application from their mobile device.
+- Guided the user to reinstall the application from the device's app store and sign back in using their work account.
+- Confirmed that the mailbox synchronized successfully and new emails were received.
+
+**Status:**
+✅ Resolved – Mobile email application reinstalled successfully, and email synchronization was restored.
