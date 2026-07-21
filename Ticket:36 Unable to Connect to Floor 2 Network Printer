@@ -1,0 +1,19 @@
+## Ticket: Unable to Connect to Floor 2 Network Printer
+
+**Issue:**
+User reported that the **Floor 2 network printer** appeared **Offline** and all print jobs failed from their workstation. Other users were able to print successfully, indicating the issue was isolated to the user's PC. The problem began following scheduled maintenance.
+
+**Root Cause:**
+The printer on the user's workstation was configured with an incorrect or outdated IP address following the maintenance, preventing communication with the network printer.
+
+**Resolution:**
+- Reviewed the **Print Server** documentation to obtain the correct IP address for the Floor 2 printer.
+- Connected to the user's workstation via Remote Support.
+- Opened **Settings → Devices** and removed the offline printer.
+- Re-added the printer using the **Add a printer using a TCP/IP address or hostname** option.
+- Configured the printer using the documented IP address.
+- Printed a test page to verify successful communication.
+- Confirmed with the user that printing functionality had been restored.
+
+**Status:**
+✅ Resolved – Printer reconfigured with the correct IP address, test page printed successfully, and normal printing functionality restored.
