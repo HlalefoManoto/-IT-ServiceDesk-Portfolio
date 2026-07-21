@@ -1,0 +1,17 @@
+## Ticket: Company-Wide Email Service Outage
+
+**Issue:**
+Users across the organization were unable to send or receive email. Desktop mail clients displayed a **"Disconnected"** status, and webmail was also unavailable, indicating a company-wide email service outage.
+
+**Root Cause:**
+The **EXCH01** mail server had become unresponsive, causing a complete interruption of email services across the organization.
+
+**Resolution:**
+- Confirmed the issue affected multiple users and was not isolated to a single workstation.
+- Accessed the **Server Room** and opened the **Servers** management console.
+- Located the **EXCH01** mail server and performed a controlled reboot.
+- Monitored the server until email services were restored.
+- Contacted the reporting user via Team Chat and confirmed that email sending, receiving, and webmail access were functioning normally.
+
+**Status:**
+✅ Resolved – EXCH01 mail server rebooted successfully, and company-wide email services were fully restored.
