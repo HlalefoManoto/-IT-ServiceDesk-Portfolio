@@ -1,0 +1,17 @@
+## Ticket: Floor 2 Print Service Outage
+
+**Issue:**
+Multiple users on Floor 2 reported that they were unable to print. Print jobs remained in the queue without printing, while all affected printers were powered on and operational.
+
+**Root Cause:**
+The Print Server had become unresponsive, preventing print jobs from being processed for users on Floor 2.
+
+**Resolution:**
+- Confirmed the issue affected multiple users, indicating a server-side problem rather than an individual workstation.
+- Accessed the **Server Room** and located the **Print Server**.
+- Performed a controlled reboot of the Print Server.
+- Verified that the print service restarted successfully.
+- Confirmed with users that queued print jobs were processed and printing functionality was restored.
+
+**Status:**
+✅ Resolved – Print Server rebooted successfully, and printing services were restored for all affected users on Floor 2.
