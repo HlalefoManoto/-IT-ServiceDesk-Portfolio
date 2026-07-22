@@ -1,0 +1,17 @@
+## Ticket: Intermittent Network Connectivity on Floor 2
+
+**Issue:**
+Multiple users on **Floor 2** reported intermittent network connectivity. Both wired and wireless connections were dropping for approximately 30 seconds before automatically reconnecting. Users on other floors were not affected.
+
+**Root Cause:**
+The **Floor 2 network switch** was experiencing instability, causing intermittent interruptions to network connectivity for all devices connected to that switch.
+
+**Resolution:**
+- Confirmed the issue affected multiple users and was isolated to **Floor 2**.
+- Accessed the **Server Room** and opened the **Devices** management console.
+- Located the **Floor 2 Switch** and performed a controlled reboot.
+- Verified the switch restarted successfully and resumed normal operation.
+- Confirmed with the reporting user via **Team Chat** that the network connection remained stable after the reboot.
+
+**Status:**
+✅ Resolved – Floor 2 network switch rebooted successfully, restoring stable wired and wireless network connectivity for all affected users.
