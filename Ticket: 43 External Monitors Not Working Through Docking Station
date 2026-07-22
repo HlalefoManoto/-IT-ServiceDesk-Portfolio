@@ -1,0 +1,20 @@
+## Ticket: External Monitors Not Working Through Docking Station
+
+**Issue:**
+User reported that both external monitors stopped working when connecting their laptop to the docking station. The laptop display functioned normally, but neither monitor displayed an image. Restarting the laptop and reconnecting the dock did not resolve the issue.
+
+**Root Cause:**
+A faulty **HDMI cable** connecting the docking station to the external monitor prevented the displays from receiving a video signal.
+
+**Resolution:**
+- Confirmed the laptop display was functioning, indicating the issue was isolated to the external monitor connection.
+- Guided the user via **Team Chat** to reseat the monitor cables at both ends.
+- After reseating failed to resolve the issue, requested a photo of the cable connector.
+- Identified the connector as an **HDMI** cable from the user's photo.
+- Collected the user's shipping address.
+- Opened **Ship Manager**, selected the appropriate **HDMI cable**, set the shipment to **Rush Priority (Instant)**, and dispatched the replacement.
+- Instructed the user to connect the new cable upon arrival and press **Win + P → Extend** to restore dual-monitor functionality.
+- Confirmed both external monitors were detected and operating correctly.
+
+**Status:**
+✅ Resolved – Replacement HDMI cable shipped and installed successfully, restoring dual-monitor functionality through the docking station.
