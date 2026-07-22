@@ -1,0 +1,19 @@
+## Ticket: Suspicious Account Login – Security Incident
+
+**Issue:**
+User reported receiving a security notification indicating a successful login from an unfamiliar location. The user confirmed they did not initiate the login and had already changed their password before contacting the Help Desk.
+
+**Root Cause:**
+Potential unauthorized access to the user's account. As the legitimacy of the login could not be confirmed, the incident was treated as a possible account compromise and escalated in accordance with security procedures.
+
+**Resolution:**
+- Located the user's account in the **Directory**.
+- Verified the user's identity by sending and confirming a verification code.
+- Reset the account password to a strong temporary password.
+- Reset the user's **Multi-Factor Authentication (MFA)** to invalidate any previously registered authentication tokens.
+- Reviewed the user's **group memberships** and confirmed there were no unauthorized permission changes.
+- Connected to the user's workstation via **Remote Support** and initiated a **Full Security Scan** to detect any malware or malicious software.
+- Escalated the incident to the **Security Team** for further investigation and monitoring.
+
+**Status:**
+✅ Resolved – User account secured with a new password and MFA reset, workstation scanned for threats, permissions verified, and the incident escalated to the Security Team for follow-up.
