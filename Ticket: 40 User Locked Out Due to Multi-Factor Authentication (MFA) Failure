@@ -1,0 +1,17 @@
+## Ticket: User Locked Out Due to Multi-Factor Authentication (MFA) Failure
+
+**Issue:**
+User reported being unable to sign in because the multi-factor authentication (MFA) verification code was not being received on their mobile device. The issue persisted despite the phone having network signal and being restarted. MFA had been functioning normally the previous day.
+
+**Root Cause:**
+The user's MFA registration had become invalid or was no longer synchronizing correctly with the authentication service, preventing verification codes from being delivered.
+
+**Resolution:**
+- Located the user's account in the **Directory**.
+- Contacted the user's manager via **Team Chat** to obtain approval for an MFA reset.
+- After receiving manager authorization, performed an **MFA reset** on the user's account.
+- Informed the manager that the user could sign in and complete the MFA re-enrollment process.
+- Confirmed with the user via **Team Chat** that authentication was successful and account access had been restored.
+
+**Status:**
+✅ Resolved – MFA credentials were reset, the user successfully re-enrolled their authenticator, and normal access was restored.
