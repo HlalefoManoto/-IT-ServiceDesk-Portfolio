@@ -1,0 +1,17 @@
+## Ticket: Floor 1 Network Connectivity Outage
+
+**Issue:**
+Multiple users on **Floor 1** reported a complete loss of internet connectivity following a brief power outage. Both wired and wireless network connections were affected, while users on other floors continued to operate normally.
+
+**Root Cause:**
+The **Floor 1 network switch** failed to recover properly after the power interruption, disrupting network connectivity for all devices connected to that switch.
+
+**Resolution:**
+- Confirmed the issue affected multiple users and was isolated to Floor 1.
+- Accessed the **Server Room** and opened the **Devices** management console.
+- Located the **Floor 1 Switch** and performed a controlled reboot.
+- Verified that the network switch came back online successfully.
+- Confirmed with the reporting user via **Team Chat** that internet connectivity had been restored across Floor 1.
+
+**Status:**
+✅ Resolved – Floor 1 network switch rebooted successfully, restoring wired and wireless network connectivity for all affected users.
