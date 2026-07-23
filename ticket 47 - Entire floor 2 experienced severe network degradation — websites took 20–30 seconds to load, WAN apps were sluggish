@@ -1,0 +1,11 @@
+SYMPTOM: Entire floor 2 experienced severe network degradation — websites took 20–30 seconds to load, WAN apps were sluggish, and speed tests dropped from 500 Mbps to ~2 Mbps.
+ISOLATION: Confirmed the issue was isolated to floor 2 by checking with the group chat; other floors reported normal performance, ruling out ISP/WAN-level issues.
+ROOT CAUSE: Core router for floor 2 experienced performance degradation (likely thermal throttling, memory leak, or buffer bloat) causing severe throughput collapse.
+FIX: Rebooted the floor 2 core router to clear state and restore normal operation.
+VERIFICATION: Confirmed with the group chat that speeds returned to normal and websites loaded properly.
+PREVENTION:
+Upgrade to a business-grade router with better sustained-load performance
+Improve ventilation/cooling to prevent thermal throttling
+Schedule automatic reboots during maintenance windows
+Segment heavy devices onto a dedicated VLAN to reduce saturation
+Monitor router CPU/memory/temperature trends to catch degradation before it impacts users
