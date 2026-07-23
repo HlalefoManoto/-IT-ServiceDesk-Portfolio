@@ -1,0 +1,30 @@
+SYMPTOM
+
+User reported that their laptop would not charge. They tested multiple power outlets but the battery continued to drain and the device would not charge.
+
+ISOLATION
+
+Troubleshooting performed:
+
+Verified the user tried multiple wall outlets.
+Confirmed the charging cable was securely connected.
+Suspected the charger was faulty based on the initial symptoms.
+Sent a replacement charger to restore service as quickly as possible.
+After the replacement charger arrived, the issue persisted, confirming the charger was not the cause.
+ROOT CAUSE
+
+The laptop itself had a hardware fault preventing it from accepting a charge. The charging circuit or another internal hardware component had failed, rather than the power adapter.
+
+FIX
+Initially arranged shipment of a replacement charger based on the reported symptoms.
+After confirming the new charger did not resolve the issue, prepared a replacement work laptop using the appropriate company image.
+Registered the new asset, assigned it to the user, and shipped it with expedited delivery.
+Included a return label for the defective laptop so it could be returned for hardware diagnostics.
+VERIFICATION
+
+User received the replacement laptop, successfully signed in, confirmed the device charged normally, and resumed work without further issues.
+
+PREVENTION
+Verify suspected charger failures by testing with a known-good charger before replacing accessories.
+Keep pre-imaged replacement laptops available for users who rely on their devices for business-critical work.
+Encourage users to report intermittent charging issues before complete hardware failure occurs.
