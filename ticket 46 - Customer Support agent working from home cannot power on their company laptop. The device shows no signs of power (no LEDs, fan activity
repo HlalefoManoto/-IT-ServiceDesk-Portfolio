@@ -1,0 +1,37 @@
+SYMPTOM
+
+Customer Support agent working from home cannot power on their company laptop. The device shows no signs of power (no LEDs, fan activity, or display), preventing them from accessing the softphone and handling customer calls.
+
+ISOLATION
+
+Troubleshooting performed:
+
+Held the power button for 15+ seconds.
+Tested with two known-good power adapters.
+Tested using a known-working wall outlet.
+Verified there were no power LEDs, charging indicators, fan noise, or display activity.
+Determined the issue is isolated to the laptop and not the power source or charger.
+ROOT CAUSE
+
+Likely hardware failure. The exact cause cannot be confirmed remotely but may involve the motherboard, internal power circuitry, battery, or another critical hardware component. Because the laptop is completely unresponsive, further hardware diagnostics require physical inspection.
+
+FIX
+
+Since the employee is unable to work remotely and the laptop is completely non-functional:
+
+Open Computer Deployment and image a replacement laptop using the Customer Support Agent build.
+Register the new laptop in Asset Management and set its status to Ready.
+Check out the replacement asset to the user.
+Open Ship Manager.
+Confirm the user's shipping address.
+Ship the replacement laptop with Rush (Same Day) priority.
+Include a prepaid return label for the defective laptop.
+Once the replacement arrives, have the user log in and return the faulty device for hardware diagnostics and repair.
+VERIFICATION
+
+User confirmed the replacement laptop powers on successfully, they are able to sign in, access the softphone, and resume taking customer calls.
+
+PREVENTION
+Keep a small inventory of pre-imaged spare laptops for critical work-from-home staff.
+Encourage users to report intermittent charging or power issues early before complete hardware failure.
+Perform regular hardware health checks during device refresh cycles.
