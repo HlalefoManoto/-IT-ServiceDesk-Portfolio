@@ -1,0 +1,31 @@
+SYMPTOM
+
+New employee is unable to access the department's shared drive. The drive is not mapped on their computer, and attempting to access the provided network path returns a "Network path not found" error.
+
+ISOLATION
+
+Troubleshooting performed:
+
+Confirmed the user started in the department last week.
+Verified the shared drive is not mapped on the user's computer.
+Confirmed coworkers can access the shared drive without issues.
+Verified the user is connected to the office's wired network.
+Determined the issue is isolated to the user's account or workstation.
+ROOT CAUSE
+
+The user had not been granted access to the department's shared drive, or the network drive had not been mapped during the onboarding process.
+
+FIX
+Checked the file server documentation to identify the correct shared folder and required security group.
+Verified the user's Active Directory group memberships.
+Added the user to the appropriate security group (or requested the required access if approval was needed).
+Mapped the department shared drive using the correct network path.
+Asked the user to sign out and back in (or refreshed Group Policy) so the new permissions would apply.
+VERIFICATION
+
+User successfully accessed the department's shared drive, opened the required folders and files, and confirmed they could perform their work.
+
+PREVENTION
+Include shared drive permissions and drive mapping in the new employee onboarding checklist.
+Automate drive mapping through Group Policy where possible.
+Verify department access before the employee's first working day.
